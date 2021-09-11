@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Project</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+    </head>
+    <body>
+        <div class="header-container-advance">
+            <div class="header-image">
+                <div class="image-container-advance">
+                    <div class="google-image-advance">
+                        <button class="header-home-button">
+                            <img class="search-img-adv" alt="Google" height="92" src= "img/googlelogo_color_272x92dp.png">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="header-button">
+                <form action="index.html">
+                    <button class="page-change-button">Home</button>
+                </form>
+            </div>
+        </div>
+        <div class="sub-heading">
+            Advanced Search
+        </div>
+        <div class="borderline-bottom"></div>
+        <div class="flex-adv-container">
+            <div class="adv-container">
+                <div class="find-pages">
+                    <div class="topic">
+                        <h4>Find pages with...</h4>
+                    </div>
+                    <form action="https://www.google.co.in/search" method="GET" name="f" class="adv-form">
+                        <div class="form-adv-label">
+                            <div class="label">
+                                <div class="label-box">
+                                    <label for="first">all these words: </label>
+                                </div>
+                            </div>
+                            <div class="form-adv-input">
+                                <input type="text" class="adv-input" id="first" name="as_q">
+                            </div>
+                        </div>
+
+                        <div class="form-adv-label">
+                            <div class="label">
+                                <div class="label-box">
+                                    <label for="second">this exact word or phrase: </label>
+                                </div>
+                            </div>
+                            <div class="form-adv-input">
+                                <input type="text" class="adv-input" id="second" name="as_epq">
+                            </div>    
+                        </div>
+                        
+                        <div class="form-adv-label">
+                            <div class="label">
+                                <div class="label-box">
+                                    <label for="third">any of these words: </label>
+                                </div>
+                            </div>
+                            <div class="form-adv-input">
+                                <input type="text" class="adv-input" id="third" name="as_oq">
+                            </div>
+                        </div>
+                        
+                        <div class="form-adv-label">
+                            <div class="label">
+                                <div class="label-box">
+                                    <label for="forth">none of these words: </label>
+                                </div>
+                            </div>
+                            <div class="form-adv-input">
+                                <input type="text" class="adv-input" id="forth" name="as_eq">
+                            </div>
+                        </div>
+                        <div class="adv-btn-label">
+                            <div class="label"></div>
+                            <div class="adv-button-container">
+                                <div class="adv-btn">
+                                    <input type="hidden" name="tbs">
+                                    <input class="final-btn" type="submit" value="Advanced Search">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="borderline-bottom"></div>
+            </div>
+        </div>
+        <footer>
+            India
+            <div class="about">
+                About
+            </div>
+        </footer>
+    </body>
+</html>
